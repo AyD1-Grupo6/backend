@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.get('/', (req, res) => {
-  res.send('API ERPPLUS WORKING');
+  return res.send('API ERPPLUS WORKING');
 });
 
 app.listen(process.env.PORT || 5000, () => {
