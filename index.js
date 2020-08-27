@@ -8,5 +8,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, () => {
-  console.log(`API iniciada en el puerto ${port}`);
+  console.log(`API iniciada, puerto ${port}`);
 });
