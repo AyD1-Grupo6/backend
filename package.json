@@ -1,0 +1,26 @@
+{
+  "name": "api-erpplus",
+  "version": "1.0.0",
+  "description": "API de ERPPLUS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":  "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyD1-Grupo6/backend.git"
+  },
+  "author": "Leonel Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyD1-Grupo6/backend/issues"
+  },
+  "homepage": "https://github.com/AyD1-Grupo6/backend#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
